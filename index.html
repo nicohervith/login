@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Validated Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="label">LOGO</h1><p></p>
+  
+    <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated()">
+      <div class="font">Nombre de usuario</div>
+      <input autocomplete="off" type="text" name="email">
+      <div id="email_error">Please fill up your Email or Phone</div>
+      <div class="font font2">Clave</div>
+      <input type="password" name="password">
+      <div id="pass_error">Please fill up your Password</div>
+      <div class="checkbox-container">
+        <input class="checkbox" type="checkbox" value="">
+        <p class="checkbox-p">Recordar el nombre de usuario</p>
+      </div>
+
+      <button type="submit">INICIAR SESIÓN</button>
+      <div class="footer-container">
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+        <p ><a  href="#">¿Olvidó su nombre de usuario?</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="valid.js"></script>
+</body>
+
+</html>
