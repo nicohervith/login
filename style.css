@@ -46,6 +46,18 @@ nav {
   justify-content: center;
   padding-left: 35px;
 }
+.second-img{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.bet-img{
+  width: 170px;
+  margin: auto;
+  align-items: center;
+}
 
 .livebet-img {
   margin: auto;
