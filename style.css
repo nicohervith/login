@@ -38,13 +38,14 @@ nav {
 }
 
 .img-container {
-  margin-top: 7px;
+  margin-top: 17px;
   display: grid;
   grid-template-columns: 75% 7%;
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding-left: 35px;
+  padding-left: 30px;
+  text-align: center;
 }
 .second-img {
   display: flex;
@@ -54,17 +55,24 @@ nav {
   margin-bottom: 10px;
 }
 .bet-img {
-  width: 170px;
+  width: 100%;
   margin: auto;
+  justify-content: center;
+  display: flex;
   align-items: center;
+  text-transform: uppercase;
+  color:#f1f1f1;
 }
 
 .livebet-img {
   margin: auto;
   width: 220px;
+  font-size: 30px;
   height: auto;
   align-items: center;
   justify-content: center;
+  color:#f1f1f1;
+  text-transform:uppercase ;
 }
 .close-img {
   width: 20px;
